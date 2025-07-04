@@ -1,0 +1,229 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/farm-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffeb3b;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  main {
+    text-align: center;
+    margin-top: 100px;
+  }
+  /* Reset & base */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('images/farm-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.65);
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    margin: 0 0 10px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #f5e663;
+    text-shadow: 0 0 6px #b59f0d;
+  }
+  
+  nav {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #f5e663;
+    margin: 0 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="number"] {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="number"]:focus {
+    outline: 2px solid #f5e663;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #f5e663;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #222;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d4c243;
+  }
+  
+  /* Messages */
+  p {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  p[style*="color:red"] {
+    color: #ff6b6b;
+  }
+  
+  p[style*="color:lightgreen"] {
+    color: #9be79b;
+  }
+  
+  /* Table Styling for Dashboard */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f5e663;
+    color: #222;
+    font-weight: 700;
+  }
+  
+  table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  table a {
+    color: #f5e663;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  table a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Link back to dashboard */
+  a {
+    color: #f5e663;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 10px 10px;
+      font-size: 1rem;
+    }
+  
+    table th, table td {
+      font-size: 0.9rem;
+    }
+  }
+  
