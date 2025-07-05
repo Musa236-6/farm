@@ -1,21 +1,66 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Farm Product Website</title>
+  <title>Farm Product Management System</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('images/farm.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #f5e663;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 25px;
+      background-color: #f5e663;
+      color: #222;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: #cfc23d;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Farm Product Website 🌾</h1>
-    <p>This is a PHP-based web system. To run it, please clone the repo and run it locally using XAMPP or a PHP server.</p>
-    <ul>
-      <li><strong>Register:</strong> <code>register.php</code></li>
-      <li><strong>Login:</strong> <code>login.php</code></li>
-      <li><strong>Dashboard:</strong> <code>index.php</code></li>
-    </ul>
-    <p>Visit the <a href="https://www.apachefriends.org/index.html" target="_blank">XAMPP website</a> to install a local server.</p>
+  <div class="overlay">
+    <h1>🌾 Farm Product Management System</h1>
+    <p>Welcome to our PHP-based platform for managing farm products efficiently.</p>
+    <p>Use the links below to access the system:</p>
+
+    <div class="links">
+      <a href="register.php">Register</a>
+      <a href="login.php">Login</a>
+      <a href="index.php">Dashboard</a>
+    </div>
+
+    <p style="margin-top: 40px; font-size: 0.9rem;">Note: This site uses PHP and must be run on a local server (e.g. XAMPP).</p>
   </div>
 </body>
 </html>
